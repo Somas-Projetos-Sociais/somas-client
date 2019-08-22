@@ -1,0 +1,294 @@
+html, body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+}
+
+a:hover {
+    color: #ffffee;
+    opacity: 1;
+    transition: 1s;
+    border-bottom: 1px solid #ffffee;
+    height: auto;
+}
+
+button {
+    width: 15vw;
+    height: 10vh;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: .5s;
+}  
+
+h1 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+input[type="text"] {
+    width: 30vw;
+    margin-bottom: 5vh;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 50vw;
+    height: 3vh;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 1.5em;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 1.5em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 1.5em;
+  }
+
+li {
+    list-style-type: none;
+    color: #bdbdbd;
+    border-bottom: 3px solid #bdbdbd;
+    margin-bottom: 2em;
+}
+
+li:hover {
+    color: black;
+    border-bottom: 6px solid black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+nav, nav div, section, .caroussel-count {
+    display: flex;
+    align-items: flex-start;
+}
+
+nav, section {
+    justify-content: space-between;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 101;
+    background: #00000033;
+}
+
+nav a {
+    margin: 20px;
+}
+
+nav p {
+ color: white;
+ margin-bottom: 3px;
+ margin-top: 0px;
+ margin-right: 0px;
+}
+
+p {
+    color: #757575;
+}
+
+p.main-text {
+    margin-right: 50vw;
+    max-width: 30vw;
+    margin-top: 0px;
+}
+
+section {
+    padding-top: 15vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+textarea {
+    margin-top: 5vh;
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+
+.caroussel {
+    max-width: 68vw;
+    display: flex;
+    padding: 10vh 10vh 10vh 10vh;
+    background: white;
+}
+
+.caroussel button {
+    background: black;
+    color: white;
+}
+
+.caroussel button:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+.caroussel div {
+    width: 30vw;
+    align-self: center;
+}
+
+.caroussel-count img {
+    max-width: 3vw;
+    margin-right: 1em;
+}
+
+.center-text {
+    text-align: center;
+    width: 100%;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    font-size: 2em;
+    color: black;
+}
+
+.half-screen {
+    width: 40%;
+}
+
+.image-a, .half-screen {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 3vw;
+    max-width: 40vw;
+}
+
+.image-b {
+    width: 40vw;
+}
+
+.left-align {
+    text-align: right;
+}
+
+.logo {
+    width: 5vw;
+    margin-bottom: 7px;
+
+}
+
+.screen-b {
+    width: 30%;
+    margin-right: 2em;
+    min-height: 30vh;
+    margin-top: 10vh;
+}
+
+.screen-b img {
+    opacity: .5;
+    max-width: 25vw;
+}
+
+#faca_parte {
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+#faca_parte h1 {
+    margin-left: 4vw;
+}
+
+#faca_parte p {
+    max-width: 20vw;
+    border-left: 2px solid #bdbdbd;
+    color: #757575;
+    padding-left: .5vw;
+}
+
+#home {
+    height: 100vh;
+    align-items: center; 
+    padding-top: 0px;
+    background-image: url("imgs/img-a.png");
+    background-size: cover;
+    justify-content: flex-start;
+}
+
+#home h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+#home p, #home h1 {
+    color: white;
+}
+
+
+#home div {
+    max-width: 30vw;
+}
+
+#nossa_historia {
+    background-image: url('imgs/nossa-historia-bg.png');
+}
+
+#nossos_projetos {
+    background-image: url('imgs/hack_b.png');
+    background-repeat: no-repeat;
+}
+
+#nossa_historia, #nossos_projetos {
+    height: 100vh;
+    background-size: cover;
+    padding-bottom: 10vh;
+}
+
+#time button {
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20vh;  
+}
+
+
+#time h1 {
+    font-size: 3vw;
+}
+
+#time h2 {
+    width: 100%;
+}
+
+#time p {
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    nav div {
+        display: none;
+    }
+
+    .image-a {
+        align-self: flex-start;
+    }
+}
