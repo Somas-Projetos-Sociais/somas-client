@@ -1,4 +1,6 @@
 var carousel = document.getElementById("carousel")
+var transition = document.getElementById("transition")
+var nav = document.getElementById("navigation")
 var bg = document.getElementById("home")
 var letterChange = document.getElementById("letter-change")
 var count = 1
@@ -12,18 +14,16 @@ setInterval(function(){
          count = 0
          letterChange.innerHTML = `${text[count]}`
          bg.style.background = `url('${imgs[count]}')`
-         bg.style.backgroundSize = "cover"
-         count++
+         bg.style.backgroundSize = "cover"      
+         count++   
       } else {
          letterChange.innerHTML = `${text[count]}`
          bg.style.background = `url('${imgs[count]}')`
          bg.style.backgroundSize = "cover"
-         count++
-         
+         count++   
       }
 
    },2000)
-
 
 
 function navChange()  {

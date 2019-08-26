@@ -33,7 +33,13 @@ button:hover {
     background: black;
     color: white;
     transition: .5s;
-}  
+} 
+
+footer {
+    background: #bdbdbd;
+    height: 50vh;
+    width: 100%;
+}
 
 h1 {
     width: 100%;
@@ -43,6 +49,7 @@ h1 {
 h2 {
     font-weight: 300;
 }
+
 
 input[type="text"] {
     width: 30vw;
@@ -82,7 +89,7 @@ li:hover {
     transition: .5s;
 }
 
-nav, nav div, section, .caroussel-count {
+nav, nav div, section, .caroussel-count, footer {
     display: flex;
     align-items: flex-start;
 }
@@ -96,7 +103,6 @@ nav {
     width: 100%;
     align-items: center;
     z-index: 101;
-    background: #00000033;
 }
 
 nav a {
@@ -118,6 +124,7 @@ p.main-text {
     margin-right: 50vw;
     max-width: 30vw;
     margin-top: 0px;
+    margin-top: 2vh;
 }
 
 section {
@@ -125,7 +132,6 @@ section {
     padding-left: 10%;
     padding-right: 10%;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 textarea {
@@ -137,10 +143,14 @@ textarea {
 
 
 .caroussel {
-    max-width: 68vw;
+    width: 80vw;
+    height: 45vh;
     display: flex;
-    padding: 10vh 10vh 10vh 10vh;
+    padding: 2vh 2vh 2vh 2vh;
     background: white;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 .caroussel button {
@@ -177,16 +187,35 @@ textarea {
     width: 40%;
 }
 
+.half-screen h2 {
+    margin-bottom: 0px;
+}
+
 .image-a, .half-screen {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    margin-right: 3vw;
-    max-width: 40vw;
+    margin-top: 1vh;
+    max-width: 34vw;
 }
 
 .image-b {
     width: 40vw;
 }
+
+.image-a , .image-b {
+border: 0px solid #000000;
+
+}
+
+.intro {
+    position: relative;
+}
+
+.intro div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 .left-align {
     text-align: right;
@@ -198,6 +227,11 @@ textarea {
 
 }
 
+
+.profile {
+    width: 3vw;
+}
+
 .screen-b {
     width: 30%;
     margin-right: 2em;
@@ -206,18 +240,17 @@ textarea {
 }
 
 .screen-b img {
-    opacity: .5;
     max-width: 25vw;
 }
+
+.white { color: white; }
 
 #faca_parte {
     align-items: center;
     margin-bottom: 20vh;
+    justify-content: center;
 }
 
-#faca_parte h1 {
-    margin-left: 4vw;
-}
 
 #faca_parte p {
     max-width: 20vw;
@@ -233,6 +266,7 @@ textarea {
     background-image: url("imgs/img-a.png");
     background-size: cover;
     justify-content: flex-start;
+    transition: 1s;
 }
 
 #home h1{
@@ -249,9 +283,11 @@ textarea {
     max-width: 30vw;
 }
 
+
 #nossa_historia {
     background-image: url('imgs/nossa-historia-bg.png');
 }
+
 
 #nossos_projetos {
     background-image: url('imgs/hack_b.png');
@@ -275,13 +311,19 @@ textarea {
     font-size: 3vw;
 }
 
+#time h1:nth-child(9) {
+    margin-top: 4em;
+}
+
 #time h2 {
     width: 100%;
 }
 
 #time p {
     margin-bottom: 3em;
+    height: 20vh;
 }
+
 
 @media screen and (max-width: 768px) {
     nav div {
