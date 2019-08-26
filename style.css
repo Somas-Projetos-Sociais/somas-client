@@ -167,8 +167,13 @@ textarea {
 }
 
 .caroussel div {
-    align-self: center;
+ margin-left: 2vw;   
 }
+
+.caroussel img {
+    width: 40vw;
+}
+
 
 .caroussel-count img {
     max-width: 3vw;
