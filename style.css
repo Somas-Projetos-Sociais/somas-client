@@ -129,8 +129,7 @@ p {
 
 p.main-text {
     margin-top: 2vh;
-    margin-bottom: 2vh;
-    margin-right: 42vw;
+    margin-bottom: 4vh;
 }
 
 section {
@@ -268,8 +267,27 @@ border: 0px solid #000000;
     max-width: 26vw;
 }
 
+.screen-b p {
+    border-top: 1px solid black;
+    padding-top: 1vh;
+    font-size: 1.2em;
+    color: #000;
+
+}
+
 
 .white { color: white; }
+
+#caroussel-div {
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#caroussel-div a {
+    margin-top: 10vh;
+}
 
 #faca_parte {
     align-items: center;
