@@ -21,7 +21,7 @@ a:hover {
 
 button {
     width: 15vw;
-    height: 10vh;
+    height: 6vh;
     background: white;
     color: black;
     border: none;
@@ -44,7 +44,8 @@ footer {
 h1 {
     width: 100%;
     margin-bottom: 0px;
-    font-size: 10vw;
+    font-size: 3.6vw;
+    margin-top: 0px;
 }
 
 h2 {
@@ -119,6 +120,7 @@ nav p {
  margin-bottom: 3px;
  margin-top: 0px;
  margin-right: 0px;
+ width: auto;
 }
 
 p {
@@ -126,9 +128,9 @@ p {
 }
 
 p.main-text {
-    max-width: 30vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    margin-right: 42vw;
 }
 
 section {
@@ -153,7 +155,7 @@ textarea {
     padding: 2vh 2vh 2vh 2vh;
     background: white;
     align-items: center;
-    justify-content: space-around;
+    width: 80vw;
 
 }
 
@@ -168,26 +170,35 @@ textarea {
     border: 2px solid black;
 }
 
-.caroussel div {
- margin-left: 2vw;   
+.caroussel-count p {
+    width: 17vw;
 }
+
 
 .caroussel img {
     width: 40vw;
+    margin-right: 2vw;
+
 }
+
+.caroussel-text {
+    display: flex;
+}
+
 
 
 .caroussel-count img {
     max-width: 3vw;
     margin-right: 1em;
+    margin-top: 10px;
 }
 
 .center-text {
     text-align: center;
     width: 100%;
-    margin-top: 8vh;
+    margin-top: 12vh;
     margin-bottom: 8vh;
-    font-size: 1.3em;
+    font-size: 2em;
     color: black;
 }
 
@@ -246,30 +257,31 @@ border: 0px solid #000000;
     align-items: center;
     justify-content: flex-start;
     margin-top: 3vh;
-    margin: 43px;
-    width: 20vw;
+    height: 45vh;
+    width: 25vw;
+    overflow-x: hidden;
+    margin-right: 1vw;
+    height: auto;
 }
 
 .screen-b img {
-    max-width: 15vw;
+    max-width: 26vw;
 }
 
-.screen-b p {
-    margin-left: 2vw;
-}
 
 .white { color: white; }
 
 #faca_parte {
     align-items: center;
     margin-bottom: 20vh;
-    justify-content: center;
 }
 
 
 #faca_parte p {
     color: #757575;
     padding-left: .5vw;
+    width: 42vw;
+    margin-right: 16vw;
 }
 
 #home {
@@ -311,7 +323,6 @@ border: 0px solid #000000;
 #nossa_historia, #nossos_projetos {
     height: 100vh;
     background-size: cover;
-    padding-bottom: 10vh;
 }
 
 #time button {
@@ -347,6 +358,7 @@ border: 0px solid #000000;
     }
 
     section {
+        min-height: 100vh;
         padding-top: 5vh;
     }
 
