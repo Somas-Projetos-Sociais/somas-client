@@ -136,6 +136,7 @@ section {
     padding-left: 10%;
     padding-right: 10%;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 textarea {
@@ -241,12 +242,16 @@ border: 0px solid #000000;
 
 .screen-b {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     margin-top: 3vh;
+    margin: 43px;
+    width: 20vw;
 }
 
 .screen-b img {
-    max-width: 35vw;
+    max-width: 15vw;
 }
 
 .screen-b p {
@@ -329,7 +334,7 @@ border: 0px solid #000000;
 }
 
 #time p {
-    margin-bottom: 3em;
+    margin-left: 0px;
     height: 20vh;
 }
 
