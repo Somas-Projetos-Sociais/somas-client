@@ -37,3 +37,12 @@ function navChange()  {
     document.getElementById("navigation").style.background= "none" 
    }
   }
+
+  function action() {
+
+
+   document.getElementById("rect-a").classList.remove("st4");
+   document.getElementById("rect-a").classList.add("st9");
+
+   
+  }
