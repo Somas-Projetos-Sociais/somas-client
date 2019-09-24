@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
@@ -11,7 +12,6 @@ a {
     color: white;
     opacity: .8;
 }
-
 
 a button {
     min-width: 200px;
@@ -38,7 +38,7 @@ button:hover {
     background: black;
     color: white;
     transition: .5s;
-} 
+}
 
 footer {
     background: #bdbdbd;
@@ -49,14 +49,16 @@ footer {
 h1 {
     width: 100%;
     margin-bottom: 0px;
-    font-size: 3.6vw;
+    font-size: 4.6vw;
     margin-top: 0px;
+    font-weight: 600;
+    text-align: center;
+    color: #111;
 }
 
 h2 {
     font-weight: 300;
 }
-
 
 input[type="text"] {
     width: 30vw;
@@ -67,20 +69,27 @@ input[type="text"] {
     height: 3vh;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     font-size: 1.5em;
     font-weight: 300;
     margin: 0px;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
     font-size: 1.5em;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
+}
+
+ :-ms-input-placeholder {
+    /* IE 10+ */
     font-size: 1.5em;
-  }
-  :-moz-placeholder { /* Firefox 18- */
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
     font-size: 1.5em;
-  }
+}
 
 li {
     list-style-type: none;
@@ -101,12 +110,21 @@ ul {
     padding: 0px;
 }
 
-nav, nav div, section, footer {
+nav,
+nav div,
+section,
+footer {
     display: flex;
     align-items: flex-start;
 }
 
-nav, section {
+.mark {
+    color: white;
+    background: #334a8c;
+}
+
+nav,
+section {
     justify-content: space-between;
 }
 
@@ -115,6 +133,7 @@ nav {
     width: 100%;
     align-items: center;
     z-index: 101;
+    height: 8vh;
 }
 
 nav a {
@@ -122,15 +141,18 @@ nav a {
 }
 
 nav p {
- color: white;
- margin-bottom: 3px;
- margin-top: 0px;
- margin-right: 0px;
- width: auto;
+    color: white;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: auto;
+    font-size: 1vw;
 }
 
 p {
     color: #757575;
+    font-size: 21px;
+    font-weight: 200;
 }
 
 p.main-text {
@@ -144,6 +166,11 @@ section {
     padding-right: 10%;
     flex-wrap: wrap;
     justify-content: flex-start;
+    height: 100vh;
+}
+
+.p-nossa {
+    margin-top: 8vh;
 }
 
 textarea {
@@ -152,7 +179,6 @@ textarea {
     height: 50vh;
     border: 1px solid black;
 }
-
 
 .caroussel {
     height: 45vh;
@@ -177,13 +203,9 @@ textarea {
     width: 17vw;
 }
 
-
-
-
 .caroussel-text {
     display: flex;
 }
-
 
 .center-text {
     text-align: center;
@@ -202,7 +224,8 @@ textarea {
     margin-bottom: 0px;
 }
 
-.image-a, .half-screen {
+.image-a,
+.half-screen {
     margin-top: 1vh;
     max-width: 34vw;
 }
@@ -211,9 +234,9 @@ textarea {
     width: 40vw;
 }
 
-.image-a , .image-b {
-border: 0px solid #000000;
-
+.image-a,
+.image-b {
+    border: 0px solid #000000;
 }
 
 .intro {
@@ -222,22 +245,13 @@ border: 0px solid #000000;
     flex-wrap: wrap;
 }
 
-.intro p {
-    color: white;
-}
-
-
 .left-align {
     text-align: right;
 }
 
 .logo {
     width: 5vw;
-    margin-bottom: 7px;
-
 }
-
-
 
 .profile {
     width: 3vw;
@@ -260,14 +274,14 @@ border: 0px solid #000000;
     text-align: center;
 }
 
-
-.white { color: white; }
+.white {
+    color: white;
+}
 
 #caroussel-div {
     display: flex;
     flex-direction: column;
 }
-
 
 #caroussel-div a {
     margin-top: 4vh;
@@ -277,7 +291,6 @@ border: 0px solid #000000;
     margin-bottom: 20vh;
 }
 
-
 #faca_parte p {
     color: #757575;
     padding-left: .5vw;
@@ -285,7 +298,7 @@ border: 0px solid #000000;
 
 #home {
     height: 100vh;
-    align-items: center; 
+    align-items: center;
     padding-top: 0px;
     background-image: url("imgs/img-a.png");
     background-size: cover;
@@ -293,44 +306,46 @@ border: 0px solid #000000;
     transition: 1s;
 }
 
-#home h1{
+#home h1 {
     font-size: 7vw;
     width: 70vw;
     margin-bottom: 0px;
 }
 
-#home p, #home h1 {
+#home p,
+#home h1 {
     color: white;
+    text-align: left;
 }
-
 
 #home div {
     max-width: 30vw;
 }
 
+#info {
+    width: 100%;
+}
 
 #nossa_historia {
     display: block;
-    background-image: url('imgs/nossa-historia-bg.png');
 }
-
 
 #nossos_projetos {
     background-image: url('imgs/hack_b.png');
     background-repeat: no-repeat;
 }
 
-#nossa_historia, #nossos_projetos {
+#nossa_historia,
+#nossos_projetos {
     background-size: cover;
     padding-bottom: 10vh;
 }
 
 #time button {
-  border: 1px solid black;
-  margin-top: 20px;
-  margin-bottom: 20vh;  
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20vh;
 }
-
 
 #time h1 {
     font-size: 3vw;
@@ -357,36 +372,48 @@ border: 0px solid #000000;
 }
 
 .nossa_historia_ilustras div {
-    width: 20vw;
+    width: 26vw;
 }
 
 .nossa_historia_ilustras p {
+    min-height: 80px;
     text-align: center;
-    color: white;
+    color: #ffffff;
+    margin-top: 0vh;
+    width: 23vw;
+    font-size: 12pt;
+    padding: 1vw;
+    line-height: unset;
+    margin: auto;
+    text-align: center;
+    background: #111;
 }
 
 
 /* Dropdown content (hidden by default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
 
-  button.dropbtn {
+button.dropbtn {
     background: transparent;
     color: white;
     font-weight: 300;
@@ -394,104 +421,88 @@ border: 0px solid #000000;
     height: 60px;
     font-family: 'Montserrat', sans-serif;
 }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 @media screen and (max-width: 768px) {
-
     #atuacao {
         justify-content: center;
     }
-
     h1 {
         font-size: 250%;
         max-width: 40%;
         margin-top: 2vh;
     }
-
     #home h1 {
         font-size: 3em;
     }
-
     p {
         font-size: 120%;
     }
-
     button {
         width: 35vw;
         height: 5vh;
     }
-
     section {
         min-height: 100vh;
         padding-top: 5vh;
     }
-
-
     nav div {
         display: none;
     }
-
     section {
         padding-left: 5%;
         padding-right: 5%;
     }
-
     .caroussel {
         height: auto;
     }
-
     .caroussel-count img {
         max-width: 8vw;
         margin-top: 10px;
         margin-right: 15px;
     }
-
     .caroussel img {
         width: 100%;
     }
-
     .image-a {
         align-self: flex-start;
     }
-
     .logo {
         width: 16vw;
     }
-
     #faca_parte {
         justify-content: flex-start;
     }
-
-    #home div, p.main-text {
+    #home div,
+    p.main-text {
         max-width: none;
     }
-
-    #nossa_historia, #nossos_projetos {
+    #nossa_historia,
+    #nossos_projetos {
         height: auto;
     }
-
     .caroussel {
         flex-direction: column;
     }
-
     .main-text {
         margin-right: 0px;
     }
-
     .nossa_historia_ilustras {
         flex-direction: column;
     }
-
     .nossa_historia_ilustras div {
         width: 100%;
         display: flex;
@@ -499,100 +510,75 @@ border: 0px solid #000000;
         align-items: center;
         margin-bottom: 5vh;
     }
-
     .nossa_historia_ilustras div img {
         width: 60%;
     }
-
     .nossa_historia_ilustras p {
         font-size: 14pt;
     }
 }
 
 @media screen and (min-width: 768px) {
-
     #atuacao {
         justify-content: center;
     }
-
     .screen-b p {
         width: 60%;
     }
-
-
     .intro p {
         max-width: 38vw;
     }
-
     .intro p:nth-child(2) {
         margin-right: 20px;
     }
-
     .caroussel {
         justify-content: center;
     }
-
-
     .caroussel-count img {
         max-width: 7vw;
         margin-right: 1em;
         margin-top: 10px;
     }
-
-
     #caroussel-div div:nth-child(3) {
         justify-content: flex-start;
     }
-
     .caroussel img {
         width: 77vw;
     }
-
-
     .intro div {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: auto;
     }
-
 }
 
 @media screen and (min-width: 1024px) {
-
     #atuacao div:nth-child(2) {
         display: flex;
     }
-
     #atuacao div div:nth-child(2) {
         margin-left: 10px;
         margin-right: 10px;
     }
-    
     .atuacao_img {
         height: 25vh;
     }
-
     .caroussel img {
         width: 40vw;
     }
-
     .caroussel {
         justify-content: flex-start;
     }
-
     #caroussel-div {
         width: 45%;
         margin-left: 15px;
     }
-
     .caroussel-count img {
         max-width: 3vw;
     }
-
     .screen-b p {
         width: 22vw;
         font-size: 16px;
     }
-
 }
