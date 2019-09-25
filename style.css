@@ -553,6 +553,11 @@ button.dropbtn {
     }
 }
 
+.contato {
+    width: 40vw;
+    margin: 5vw;
+}
+
 @media screen and (min-width: 1024px) {
     #atuacao div:nth-child(2) {
         display: flex;
