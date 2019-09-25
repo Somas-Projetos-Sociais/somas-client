@@ -556,13 +556,17 @@ button.dropbtn {
 @media screen and (min-width: 1024px) {
     #atuacao div:nth-child(2) {
         display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
     #atuacao div div:nth-child(2) {
         margin-left: 10px;
         margin-right: 10px;
+        width: 28vw;
     }
     .atuacao_img {
-        height: 25vh;
+        height: 34vh;
+        width: 26vw;
     }
     .caroussel img {
         width: 40vw;
