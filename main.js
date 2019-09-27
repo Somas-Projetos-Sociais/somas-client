@@ -29,7 +29,7 @@ setInterval(function() {
 function navChange() {
 
     var x = window.innerHeight
-    var y = window.scrollY;
+    var y = window.scrollY
 
     if (y > x - 1) {
         document.getElementById("navigation").style.backgroundColor = "black"
