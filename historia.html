@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="caroussel.css">
 
     <title>Somas</title>
 </head>
@@ -36,54 +36,79 @@
         <div class="intro">
             <h1 data-aos="fade-up" data-aos-duration="1000">Nossa história</h1>
             <p class="p-nossa" data-aos="fade-up" data-aos-duration="1500">A Mastertech é uma escola que trabalha essencialmente com as habilidades de um mundo ágil e digital. Estamos educando para o futuro. Criamos experiências imersivas com foco nas pessoas. Acreditamos na transformação que o conhecimento
-                pode trazer para qualquer um, em qualquer momento. Não nos contentamos em ficar apenas dentro de grandes empresas. Chegamos nas comunidades, andamos pelos quatro cantos do Brasil, <span class="mark">estivemos com povoados ribeirinhos na Amazônia e ensinamos Tech dentro de centros de detenção provisória.</span>                Quando conectividade não era uma realidade, usamos só lápis e papel. Geramos impacto social. Somos para todas e todos. A Mastertech nos abrigou até agora. Crescemos e estamos independentes. Somos a SO.MAS
+                pode trazer para qualquer um, em qualquer momento. Não nos contentamos em ficar apenas dentro de grandes empresas.
             </p>
+
+            <p class="p-nossa"> Chegamos nas comunidades, andamos pelos quatro cantos do Brasil, <span class="mark">estivemos com povoados ribeirinhos na Amazônia e ensinamos Tech dentro de centros de detenção provisória.</span> Quando conectividade não era uma realidade,
+                usamos só lápis e papel. Geramos impacto social. Somos para todas e todos. </p>
+
+            <p class="p-nossa"><strong>A Mastertech nos abrigou até agora. Crescemos e estamos independentes. Somos a SO.MAS</strong></p>
         </div>
-
-        <div class="nossa_historia_ilustras" data-aos="fade-up" data-aos-duration="1000">
-            <div>
-                <img src="imgs/somas-ilustra_a.svg" alt="">
-                <p>Letramento digital é uma habilidade essencial para a formação de cidadãos no século XXI.</p>
-            </div>
-            <div>
-                <img src="imgs/somas-ilustra_b.svg" alt="">
-
-                <p>Tecnologia é uma ferramenta poderosa de distribuição de renda e emponderamento de minorias.</p>
-            </div>
-            <div>
-                <img src="imgs/somas-ilustra_c.svg" alt="">
-                <p>A distribuição de conhecimento é a nossa principal estratégia para fomentar desenvolvimento econômico.</p>
-            </div>
-        </div>
-
 
     </section>
+
     <section id="nossos_projetos">
         <div class="projetos">
             <h2 data-aos="fade-up" data-aos-duration="1000">Projetos que nos fizeram chegar até aqui.</h2>
 
 
-            <div data-aos="fade-up" data-aos-duration="1000" class="caroussel">
+            <div class="slideshow-container">
 
-                <img class="caroussel-img" src="imgs/hack_a.png" alt="">
-                <div id="caroussel-div">
-                    <div class="caroussel-count">
-                        <img src="imgs/carousel_count-01.svg" alt="">
-                        <img src="imgs/carousel_count-02.svg" alt="">
-                        <img src="imgs/carousel_count-03.svg" alt="">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">MARATONA MAKER</div>
+                    <div class="c-img">
+                        <img src="imgs/hack_a.png">
                     </div>
-                    <div>
-                        <h1 style="font-size: 2.3em;">Estação hack</h1>
-                    </div>
-                    <div class="caroussel-text">
-
-                        <p style="color: black;">Se você também acredita nisso. Venha somar sua força ao nosso movimento</p>
-                    </div>
-
-
-                    <a><button>SABER MAIS</button></a>
+                    <div class="text">A Maratona Maker foi patrocinada pela Intel e teve como objetivo disseminar conceitos tecnológicos e cultura maker para crianças e jovens entre 5 e 18 anos em todas as regiões do país. O projeto muniu os participantes com conceitos
+                        e ferramentas ágeis com o objetivo final de criar produtos tecnológicos que impactassem as comunidades e a qualidade de vida dos indivíduos da região.Fomos para muitas cidades, dentre elas Porto Velho, Manaus, Ponta Porã, São Paulo,
+                        Campo Grande, Aquidauana, Rio de Janeiro, Nova Andradina, Novo Hamburgo, etc. Além disso, atuamos junto aos professores, oferecendo ferramental para que pudessem desenvolver tais conteúdos em suas regiões, tornando-os multiplicadores
+                        da metodologia e garantindo a continuidade dos projetos. </div>
                 </div>
 
+                <div class="mySlides fade">
+                    <div class="numbertext">ESTAÇÃO HACK</div>
+                    <div class="c-img">
+                        <img src="imgs/hack_a.png">
+                    </div>
+                    <div class="text">A Estação Hack é uma iniciativa do Facebook no Brasil e busca desenvolver habilidades de programação em jovens entre 16 e 25 anos. Somos responsáveis pela realização desde 2017. Em São Paulo, o projeto acontece, inicialmente, com um
+                        encontro de dois dias aos finais de semana para sensibilizar o publico sobre o tema e selecionar os interessados para a Academia Mastertech, que possui um currículo com duração de 80 horas. Ao fim do curso, os alunos apresentam
+                        os projetos desenvolvidos com base em conceitos ágeis. No total, o programa já formou mais de dois mil alunos na capital. Em 2018, colocamos o pé na estrada e partimos para edições em Salvador, Recife, Brasília, Belo Horizonte,
+                        Florianópolis, Manaus e Rio de Janeiro, impactando mais de 500 jovens.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">CAIEIRAS</div>
+                    <div class="c-img">
+                        <img src="imgs/hack_a.png">
+                    </div>
+                    <div class="text">A parceria com a prefeitura de Caieiras aconteceu por conta da criação de um polo tecnológico na cidade. O primeiro passo é a capacitação profissional. Nosso projeto visa a implementação de currículo tecnológico alinhado com as diretrizes
+                        da Base Nacional Comum Curricular (BNCC). A base determina que, ao longo da educação básica, os estudantes devem desenvolver dez competências gerais, dentre elas, o uso das tecnologias digitais. Fomos responsáveis pela formação
+                        de cinquenta desenvolvedores Full Stack (programação back-end e front-end), entre 16 e 25 anos, matriculados no Ensino Médio ou Superior.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">CCP BUTANTÃ</div>
+                    <div class="c-img">
+                        <img src="imgs/hack_a.png">
+                    </div>
+                    <div class="text">Em pareceria com a Secretaria de Administração Penitenciária e a Assessoria Especial de Relações Internacionais desenhamos e executamos um currículo de programação em HTML, CSS e Javascript. A turma tinha 25 mulheres em regime semiaberto
+                        que desenvolveram projetos com base em conceitos da metodologia ágil. Tudo foi executado com lápis, papel e computadores sem conexão com a internet. Todos os sites foram programados por elas in loco. Em grande parte, os projetos
+                        foram e-commerces, o que revela a força do empreendedorismo e a capacidade de geração de renda do conhecimento tecnológico em todos os lugares para todas as pessoas.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
 
@@ -91,10 +116,12 @@
 
     </section>
 
+
     <footer>
         <h1 style="text-align: center; margin-top: 25vh; color: #757575">footer em construção</h1>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 

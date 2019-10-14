@@ -61,13 +61,12 @@ h1 {
     font-weight: 600;
     text-align: center;
     color: #111;
-    margin-top: 4vh;
 }
 
 h2 {
     font-weight: 500;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 input[type="text"] {
@@ -105,7 +104,7 @@ li {
     color: #bdbdbd;
     /* border-bottom: 3px solid #bdbdbd; */
     border: 1px solid #bdbdbd;
-    height: 5vh;
+    height: 8vh;
     width: 350px;
     margin-bottom: 2vh;
     /* margin-top: 7vh; */
@@ -176,7 +175,7 @@ nav p {
 
 p {
     color: #757575;
-    font-size: 21px;
+    font-size: 16pt;
     font-weight: 200;
 }
 
@@ -213,7 +212,7 @@ textarea {
 }
 
 .caroussel {
-    height: 45vh;
+    height: fit-content;
     display: flex;
     padding: 2vh 2vh 2vh 2vh;
     background: white;
@@ -390,7 +389,8 @@ textarea {
     padding-bottom: 10vh;
     height: fit-content;
     min-height: 100vh;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #time {
@@ -580,7 +580,7 @@ form {
     section {
         padding-left: 5%;
         padding-right: 5%;
-        width: 90%;
+        width: 100%;
     }
     .avatar {
         width: 40vw;
