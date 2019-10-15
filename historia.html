@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="imgs/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="caroussel.css">
@@ -14,13 +15,16 @@
 
 <body onscroll="navChange()">
 
-    <nav style="background: black">
+    <nav id="navigation">
         <a href="index.html"><img class="logo" src="imgs/logo.svg" alt=""></a>
         <div>
-            <a href="">
+            <a href="index.html#manifesto">
+                <p>MANIFESTO</p>
+            </a>
+            <a href="historia.html">
                 <p>NOSSA HISTÓRIA</p>
             </a>
-            <a href="#atuacao">
+            <a href="index.html#atuacao">
                 <p>NOSSA ATUAÇÃO</p>
             </a>
             <a href="time.html">
@@ -58,7 +62,7 @@
                 <div class="mySlides fade">
                     <div class="numbertext">MARATONA MAKER</div>
                     <div class="c-img">
-                        <img src="imgs/hack_a.png">
+                        <img src="imgs/maratona.png">
                     </div>
                     <div class="text">A Maratona Maker foi patrocinada pela Intel e teve como objetivo disseminar conceitos tecnológicos e cultura maker para crianças e jovens entre 5 e 18 anos em todas as regiões do país. O projeto muniu os participantes com conceitos
                         e ferramentas ágeis com o objetivo final de criar produtos tecnológicos que impactassem as comunidades e a qualidade de vida dos indivíduos da região.Fomos para muitas cidades, dentre elas Porto Velho, Manaus, Ponta Porã, São Paulo,
@@ -69,7 +73,7 @@
                 <div class="mySlides fade">
                     <div class="numbertext">ESTAÇÃO HACK</div>
                     <div class="c-img">
-                        <img src="imgs/hack_a.png">
+                        <img src="imgs/hack.png">
                     </div>
                     <div class="text">A Estação Hack é uma iniciativa do Facebook no Brasil e busca desenvolver habilidades de programação em jovens entre 16 e 25 anos. Somos responsáveis pela realização desde 2017. Em São Paulo, o projeto acontece, inicialmente, com um
                         encontro de dois dias aos finais de semana para sensibilizar o publico sobre o tema e selecionar os interessados para a Academia Mastertech, que possui um currículo com duração de 80 horas. Ao fim do curso, os alunos apresentam
@@ -80,7 +84,7 @@
                 <div class="mySlides fade">
                     <div class="numbertext">CAIEIRAS</div>
                     <div class="c-img">
-                        <img src="imgs/hack_a.png">
+                        <img src="imgs/caieiras.png">
                     </div>
                     <div class="text">A parceria com a prefeitura de Caieiras aconteceu por conta da criação de um polo tecnológico na cidade. O primeiro passo é a capacitação profissional. Nosso projeto visa a implementação de currículo tecnológico alinhado com as diretrizes
                         da Base Nacional Comum Curricular (BNCC). A base determina que, ao longo da educação básica, os estudantes devem desenvolver dez competências gerais, dentre elas, o uso das tecnologias digitais. Fomos responsáveis pela formação
@@ -90,7 +94,7 @@
                 <div class="mySlides fade">
                     <div class="numbertext">CCP BUTANTÃ</div>
                     <div class="c-img">
-                        <img src="imgs/hack_a.png">
+                        <img src="imgs/ccp.png">
                     </div>
                     <div class="text">Em pareceria com a Secretaria de Administração Penitenciária e a Assessoria Especial de Relações Internacionais desenhamos e executamos um currículo de programação em HTML, CSS e Javascript. A turma tinha 25 mulheres em regime semiaberto
                         que desenvolveram projetos com base em conceitos da metodologia ágil. Tudo foi executado com lápis, papel e computadores sem conexão com a internet. Todos os sites foram programados por elas in loco. Em grande parte, os projetos
@@ -118,11 +122,43 @@
 
 
     <footer>
-        <h1 style="text-align: center; margin-top: 25vh; color: #757575">footer em construção</h1>
+            <nav id="navigation-footer">
+                <a href="index.html"><img class="logo" src="imgs/logo.svg" alt=""></a>
+                <div>
+                    <a href="historia.html">
+                        <p>NOSSA HISTÓRIA</p>
+                    </a>
+                    <a href="#atuacao">
+                        <p>NOSSA ATUAÇÃO</p>
+                    </a>
+                    <a href="time.html">
+                        <p>NOSSO TIME</p>
+                    </a>
+                    <a href="contato.html">
+                        <p>CONTATO</p>
+                    </a>
+                </div>
+            </nav>
+            <div class="infos">
+                <div>
+                    <h3>Localização:</h3>
+                    <p>Av. Paulista - 1745</p>
+                </div>
+                <div>
+                    <h3>Tel</h3>
+                    <p>(xx)xxxxx-xxxx</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>(xx)xxxxx-xxxx</p>
+                </div>
+            </div>
+            
+           
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 
-</html>
+</html> 
