@@ -213,7 +213,7 @@ p.main-text {
 }
 
 section {
-    padding-top: 15vh;
+    padding-top: 12vh;
     padding-left: 10%;
     padding-right: 10%;
     flex-wrap: wrap;
@@ -230,7 +230,7 @@ section {
 .ilustracoes-nossa {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 6vh;
 }
 
 textarea {
@@ -342,9 +342,9 @@ textarea {
     margin: 2vw;
 }
 
+
 .screen-b p {
     font-size: 1.2em;
-    color: #000;
     text-align: center;
 }
 
