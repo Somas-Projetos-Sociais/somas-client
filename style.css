@@ -19,9 +19,9 @@ a button {
 
 a:hover {
     color: #ffffee;
+    font-weight: 700;
     opacity: 1;
     transition: 1s;
-    border-bottom: 1px solid #ffffee;
     height: auto;
 }
 
