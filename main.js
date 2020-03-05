@@ -32,9 +32,9 @@ function navChange() {
     var y = window.scrollY
 
     if (y > x - 1) {
-        document.getElementById("navigation").style.backgroundColor = "black"
+        document.getElementById("navigation").style.backgroundColor = "#3D348B"
     } else if (y < x) {
-        document.getElementById("navigation").style.background = "black"
+        document.getElementById("navigation").style.background = "#3D348B"
     }
 }
 

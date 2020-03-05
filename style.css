@@ -26,10 +26,10 @@ a:hover {
 }
 
 button {
-    height: 6vh;
+    height: 40px;
     background: white;
     color: black;
-    border: none;
+    border: 2px solid black;
     font-size: 1em;
     min-width: 15vw;
 }
@@ -42,7 +42,7 @@ button:hover {
 }
 
 footer {
-    background: #202020;
+    background: #3d338b;
     height: 50vh;
     width: 100%;
     display: flex;
@@ -135,10 +135,6 @@ li {
     height: 8vh;
     width: 350px;
     margin-bottom: 2vh;
-    /* margin-top: 7vh; */
-    -webkit-border-radius: 40px 40px 0px 38px;
-    -moz-border-radius: 40px 40px 0px 38px;
-    border-radius: 40px 40px 0px 38px;
     text-align: center;
     padding-top: 3vh;
 }
@@ -185,7 +181,7 @@ nav {
     align-items: center;
     z-index: 101;
     height: 8vh;
-    background: #202020;
+    background: #3D348B;
 }
 
 nav a {
@@ -199,6 +195,11 @@ nav p {
     margin-right: 0px;
     width: auto;
     font-size: 1vw;
+}
+
+nav p:hover {
+    color: #E6AF2E;
+    font-weight: 400;
 }
 
 p {
@@ -344,8 +345,9 @@ textarea {
 
 
 .screen-b p {
-    font-size: 1.2em;
+    font-size: 16px;
     text-align: center;
+    height: 72px;
 }
 
 .white {
@@ -497,7 +499,7 @@ textarea {
     /* color: #ffffff; */
     margin-top: 0vh;
     width: 23vw;
-    font-size: 12pt;
+    font-size: 16px;
     padding: 1vw;
     padding-top: 0px;
     line-height: unset;
@@ -615,7 +617,7 @@ form {
         font-size: 3em;
     }
     p {
-        font-size: 120%;
+        font-size: 16px;
     }
     button {
         width: fit-content;
