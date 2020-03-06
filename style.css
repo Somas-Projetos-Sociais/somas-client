@@ -195,11 +195,12 @@ nav p {
     margin-right: 0px;
     width: auto;
     font-size: 1vw;
+    font-weight: 500;
 }
 
 nav p:hover {
     color: #E6AF2E;
-    font-weight: 400;
+    transition: .3s;
 }
 
 p {
